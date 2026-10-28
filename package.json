@@ -1,0 +1,23 @@
+{
+  "name": "library-book-management-api",
+  "version": "1.0.0",
+  "description": "Library Book Management API built with Node.js, Express.js and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "server is runing at port 5000"
+  },
+  "keywords": [
+    "library",
+    "books",
+    "api"
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.22.3",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
